@@ -108,10 +108,10 @@
 }
 
 .footer-bottom-inner .hfg-grid .hfg-slot.left{
-  display:none;
+  display:none !important;
 }
 .hfg-slot.left{
-  display:none;
+  display:none !important;
 }
 
 /*# sourceMappingURL=mega-menu.css.map */
