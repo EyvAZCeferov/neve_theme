@@ -16,4 +16,6 @@
   .hfg-grid .hfg-slot.left{
 	display:none !important;
   }
-  
+  footer .builder-item:last-of-type{
+	display:none;
+}

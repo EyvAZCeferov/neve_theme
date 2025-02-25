@@ -113,5 +113,8 @@
 .hfg-slot.left{
   display:none !important;
 }
+footer .builder-item:last-of-type{
+	display:none;
+}
 
 /*# sourceMappingURL=mega-menu.css.map */

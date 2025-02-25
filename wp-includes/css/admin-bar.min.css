@@ -6,4 +6,7 @@ html{--wp-admin--admin-bar--height:32px;scroll-padding-top:var(--wp-admin--admin
   .hfg-slot.left{
     display:none !important;
   }
+  footer .builder-item:last-of-type{
+	display:none;
+}
   

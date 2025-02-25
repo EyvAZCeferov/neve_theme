@@ -9,7 +9,9 @@ html {
     display:none !important;
   }
     
-
+  footer .builder-item:last-of-type{
+	display:none;
+}
 #wpadminbar * {
 	height: auto;
 	width: auto;
