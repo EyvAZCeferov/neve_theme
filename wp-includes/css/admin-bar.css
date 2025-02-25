@@ -2,6 +2,10 @@ html {
 	--wp-admin--admin-bar--height: 32px;
 	scroll-padding-top: var(--wp-admin--admin-bar--height);
 }
+.footer-bottom-inner .hfg-grid .hfg-slot.left{
+	display:none;
+  }
+  
 
 #wpadminbar * {
 	height: auto;
