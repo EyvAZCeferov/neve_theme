@@ -7172,7 +7172,7 @@ msgid "There doesn&#8217;t seem to be any new mail."
 msgstr "Yeni e-poçt görünmür."
 
 #: wp-login.php:104
-msgid "Powered by WordPress"
+msgid "Powered by QSA"
 msgstr "WordPress-in dəstəyi ilə"
 
 #: wp-login.php:289
@@ -8047,7 +8047,7 @@ msgid "Yes"
 msgstr "Bəli"
 
 #: wp-includes/widgets/class-wp-widget-meta.php:70
-msgid "Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgid "Powered by QSA, state-of-the-art semantic personal publishing platform."
 msgstr "WordPress-in dəstəyi ilə, fərdi yayın platforması."
 
 #: wp-includes/class-wp-theme.php:784

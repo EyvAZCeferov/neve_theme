@@ -133,7 +133,7 @@ function login_header( string $title = 'Log In', string $message = '', WP_Error 
 		__( 'Usage of the title attribute on the login logo is not recommended for accessibility reasons. Use the link text instead.' )
 	);
 
-	$login_header_text = empty( $login_header_title ) ? __( 'Powered by WordPress' ) : $login_header_title;
+	$login_header_text = empty( $login_header_title ) ? __( 'Powered by QSA' ) : $login_header_title;
 
 	/**
 	 * Filters the link text of the header logo above the login form.
