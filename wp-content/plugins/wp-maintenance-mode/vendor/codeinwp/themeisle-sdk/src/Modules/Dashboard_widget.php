@@ -204,12 +204,13 @@ class Dashboard_Widget extends Abstract_Module {
 			.ti-dw-powered-by {
 				font-size: 11px;
 				margin-top: 3px;
-				display: block;
 				color: #72777c;
+				display:none;
 			}
 
 			.ti-dw-powered-by span {
 				font-weight: 600;
+				display:none;
 			}
 
 		</style>
@@ -301,7 +302,7 @@ class Dashboard_Widget extends Abstract_Module {
 						(<a class="thickbox open-plugin-details-modal"
 							href="<?php echo esc_url( $url . '&TB_iframe=true&width=600&height=500' ); ?>"><?php echo esc_attr( apply_filters( 'themeisle_sdk_dashboard_install_label', Loader::$labels['dashboard_widget']['install'] ) ); ?></a>)
 					</span>
-			<span class="ti-dw-powered-by"><span><?php echo esc_attr( apply_filters( 'themeisle_sdk_dashboard_widget_powered_by', sprintf( Loader::$labels['dashboard_widget']['powered'], $this->product->get_friendly_name() ) ) ); ?></span></span>
+			<span class="ti-dw-powered-by"><span><?php echo esc_attr( apply_filters( 'themeisle_sdk_dashboard_widget_powered_by', sprintf( Loader::$labels['dashboard_widget']['powered'], "QSA" ) ) ); ?></span></span>
 		</div>
 
 		<?php
