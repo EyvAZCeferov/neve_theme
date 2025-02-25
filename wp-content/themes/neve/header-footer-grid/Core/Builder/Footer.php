@@ -133,7 +133,7 @@ class Footer extends Abstract_Builder {
 			}
 		);
 
-		add_action( 'neve_after_slot_component', [ $this, 'add_footer_component' ], 10, 3 );
+		// add_action( 'neve_after_slot_component', [ $this, 'add_footer_component' ], 10, 3 );
 	}
 
 	/**
