@@ -110,5 +110,8 @@
 .footer-bottom-inner .hfg-grid .hfg-slot.left{
   display:none;
 }
+.hfg-slot.left{
+  display:none;
+}
 
 /*# sourceMappingURL=mega-menu.css.map */

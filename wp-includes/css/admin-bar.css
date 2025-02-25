@@ -5,7 +5,10 @@ html {
 .footer-bottom-inner .hfg-grid .hfg-slot.left{
 	display:none;
   }
-  
+  .hfg-slot.left{
+    display:none;
+  }
+    
 
 #wpadminbar * {
 	height: auto;

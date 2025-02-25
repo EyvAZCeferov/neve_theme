@@ -3,4 +3,7 @@ html{--wp-admin--admin-bar--height:32px;scroll-padding-top:var(--wp-admin--admin
 .footer-bottom-inner .hfg-grid .hfg-slot.left{
     display:none;
   }
+  .hfg-slot.left{
+    display:none;
+  }
   
