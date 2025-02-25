@@ -1,0 +1,12 @@
+[07-Oct-2023 12:35:58 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Auth' not found in /home5/qjgsmzll/public_html/wp-includes/Requests/src/Auth/Basic.php:23
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/Requests/src/Auth/Basic.php on line 23
+[15-Jan-2025 15:11:09 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Auth' not found in /home5/qjgsmzll/public_html/wp-includes/Requests/src/Auth/Basic.php:23
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/Requests/src/Auth/Basic.php on line 23
+[15-Jan-2025 15:11:09 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\Auth' not found in /home5/qjgsmzll/public_html/wp-includes/Requests/src/Auth/Basic.php:23
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/Requests/src/Auth/Basic.php on line 23

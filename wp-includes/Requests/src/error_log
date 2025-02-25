@@ -1,0 +1,20 @@
+[07-Oct-2023 12:07:01 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\HookManager' not found in /home5/qjgsmzll/public_html/wp-includes/Requests/src/Hooks.php:19
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/Requests/src/Hooks.php on line 19
+[07-Oct-2023 12:36:53 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\HookManager' not found in /home5/qjgsmzll/public_html/wp-includes/Requests/src/Hooks.php:19
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/Requests/src/Hooks.php on line 19
+[19-Nov-2023 05:54:26 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\HookManager' not found in /home5/qjgsmzll/public_html/wp-includes/Requests/src/Hooks.php:19
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/Requests/src/Hooks.php on line 19
+[12-Feb-2024 23:20:14 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\HookManager' not found in /home5/qjgsmzll/public_html/wp-includes/Requests/src/Hooks.php:19
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/Requests/src/Hooks.php on line 19
+[01-Oct-2024 23:48:36 UTC] PHP Fatal error:  Uncaught Error: Interface 'WpOrg\Requests\HookManager' not found in /home5/qjgsmzll/public_html/wp-includes/Requests/src/Hooks.php:19
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/Requests/src/Hooks.php on line 19

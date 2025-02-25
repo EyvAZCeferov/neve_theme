@@ -1,0 +1,186 @@
+[27-Jan-2021 05:43:56 UTC] require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, sbi_check_for_db_updates tərəfindən yaradılan ALTER TABLE uni_sbi_instagram_feeds_posts ADD hashtag VARCHAR(1000) NOT NULL; sorğusu üçün WordPress verilənlər bazası xətası Duplicate column name 'hashtag'
+[27-Jan-2021 05:43:56 UTC] require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, sbi_check_for_db_updates tərəfindən yaradılan ALTER TABLE uni_sbi_instagram_feeds_posts ADD INDEX hashtag (hashtag(100)) sorğusu üçün WordPress verilənlər bazası xətası Duplicate key name 'hashtag'
+[10-Feb-2021 13:15:01 UTC] activate_plugin, do_action('activate_export-wp-page-to-static-html/export-wp-page-to-static-html.php'), WP_Hook->do_action, WP_Hook->apply_filters, activate_export_wp_page_to_static_html, Export_Wp_Page_To_Static_Html_Activator::activate tərəfindən yaradılan SELECT id FROM uni_export_page_to_html_logs sorğusu üçün WordPress verilənlər bazası xətası Table 'vrvufklv_xnewx.uni_export_page_to_html_logs' doesn't exist
+[24-Mar-2021 14:01:52 UTC] [Cloudflare] ERROR: [CLIENT API] Array
+(
+    [type] => request
+    [path] => https://api.cloudflare.com/client/v4/zones/fa8b69bda4c7faacc2c9c64bd40156eb/settings/automatic_platform_optimization?action=cloudflare_proxy
+    [timeout] => 30
+    [method] => PATCH
+    [headers] => Array
+        (
+            [Content-Type] => application/json
+            [Authorization] => REDACTED
+        )
+
+    [body] => {"value":{"enabled":false,"cf":true,"wordpress":true,"wp_plugin":true,"hostnames":["unicode.az","www.unicode.az"],"cache_by_device_type":false}}
+)
+ 
+[24-Mar-2021 14:01:52 UTC] [Cloudflare] ERROR: [CLIENT API] Array
+(
+    [type] => response
+    [reason] => Bad Request
+    [code] => 400
+)
+ 
+[24-Mar-2021 14:01:52 UTC] [Cloudflare] ERROR: Bad Request 
+[24-Mar-2021 14:03:12 UTC] [Cloudflare] ERROR: [CLIENT API] Array
+(
+    [type] => request
+    [path] => https://api.cloudflare.com/client/v4/zones/fa8b69bda4c7faacc2c9c64bd40156eb/settings/automatic_platform_optimization?action=cloudflare_proxy
+    [timeout] => 30
+    [method] => PATCH
+    [headers] => Array
+        (
+            [Content-Type] => application/json
+            [Authorization] => REDACTED
+        )
+
+    [body] => {"value":{"enabled":false,"cf":true,"wordpress":true,"wp_plugin":true,"hostnames":["unicode.az","www.unicode.az"],"cache_by_device_type":false}}
+)
+ 
+[24-Mar-2021 14:03:12 UTC] [Cloudflare] ERROR: [CLIENT API] Array
+(
+    [type] => response
+    [reason] => Bad Request
+    [code] => 400
+)
+ 
+[24-Mar-2021 14:03:12 UTC] [Cloudflare] ERROR: Bad Request 
+[05-Mar-2022 20:01:35 UTC] do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, mystickyelements_admin_init tərəfindən yaradılan SHOW COLUMNS FROM uni_mystickyelement_contact_lists LIKE 'contact_option' sorğusu üçün WordPress verilənlər bazası xətası Table 'vrvufklv_xnewx.uni_mystickyelement_contact_lists' doesn't exist
+[05-Mar-2022 20:01:35 UTC] do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, mystickyelements_admin_init tərəfindən yaradılan ALTER TABLE uni_mystickyelement_contact_lists ADD contact_option VARCHAR(255) NULL DEFAULT NULL sorğusu üçün WordPress verilənlər bazası xətası Table 'vrvufklv_xnewx.uni_mystickyelement_contact_lists' doesn't exist
+[05-Mar-2022 20:01:35 UTC] do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, mystickyelements_admin_init tərəfindən yaradılan SHOW COLUMNS FROM uni_mystickyelement_contact_lists LIKE 'message_date' sorğusu üçün WordPress verilənlər bazası xətası Table 'vrvufklv_xnewx.uni_mystickyelement_contact_lists' doesn't exist
+[05-Mar-2022 20:01:35 UTC] do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, mystickyelements_admin_init tərəfindən yaradılan ALTER TABLE uni_mystickyelement_contact_lists ADD message_date DATETIME NOT NULL default '0000-00-00 00:00:00' sorğusu üçün WordPress verilənlər bazası xətası Table 'vrvufklv_xnewx.uni_mystickyelement_contact_lists' doesn't exist
+[05-Mar-2022 20:01:35 UTC] do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, mystickyelements_admin_init tərəfindən yaradılan SHOW COLUMNS FROM uni_mystickyelement_contact_lists LIKE 'page_link' sorğusu üçün WordPress verilənlər bazası xətası Table 'vrvufklv_xnewx.uni_mystickyelement_contact_lists' doesn't exist
+[05-Mar-2022 20:01:35 UTC] do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, mystickyelements_admin_init tərəfindən yaradılan ALTER TABLE uni_mystickyelement_contact_lists ADD page_link TEXT NULL DEFAULT NULL sorğusu üçün WordPress verilənlər bazası xətası Table 'vrvufklv_xnewx.uni_mystickyelement_contact_lists' doesn't exist
+[09-May-2023 09:30:15 UTC] [Cloudflare] ERROR: [CLIENT API] Array
+(
+    [type] => request
+    [path] => https://api.cloudflare.com/client/v4/zones/fa8b69bda4c7faacc2c9c64bd40156eb/purge_cache?action=cloudflare_proxy
+    [timeout] => 30
+    [method] => DELETE
+    [headers] => Array
+        (
+            [Content-Type] => application/json
+            [User-Agent] => wordpress/6.2; cloudflare-wordpress-plugin/4.11.0
+            [Authorization] => REDACTED
+        )
+
+    [body] => {"purge_everything":true}
+)
+ 
+[09-May-2023 09:30:15 UTC] [Cloudflare] ERROR: [CLIENT API] Array
+(
+    [type] => response
+    [reason] => Forbidden
+    [code] => 403
+)
+ 
+[09-May-2023 09:30:15 UTC] [Cloudflare] ERROR: Forbidden 
+[09-May-2023 09:30:22 UTC] [Cloudflare] ERROR: [CLIENT API] Array
+(
+    [type] => request
+    [path] => https://api.cloudflare.com/client/v4/zones/fa8b69bda4c7faacc2c9c64bd40156eb/purge_cache?action=cloudflare_proxy
+    [timeout] => 30
+    [method] => DELETE
+    [headers] => Array
+        (
+            [Content-Type] => application/json
+            [User-Agent] => wordpress/6.2; cloudflare-wordpress-plugin/4.11.0
+            [Authorization] => REDACTED
+        )
+
+    [body] => {"purge_everything":true}
+)
+ 
+[09-May-2023 09:30:22 UTC] [Cloudflare] ERROR: [CLIENT API] Array
+(
+    [type] => response
+    [reason] => Forbidden
+    [code] => 403
+)
+ 
+[09-May-2023 09:30:22 UTC] [Cloudflare] ERROR: Forbidden 
+[17-Feb-2025 16:45:21 UTC] PHP Warning:  file_get_contents(/home5/qjgsmzll/qsa.az/wp-content/plugins/wp-reset/wp-reset.php): failed to open stream: No such file or directory in /home5/qjgsmzll/qsa.az/wp-includes/functions.php on line 6893
+[17-Feb-2025 19:31:36 UTC] WordPress database error BLOB, TEXT, GEOMETRY or JSON column 'settings' can't have a default value for query ALTER TABLE uni_revslider_slides ALTER COLUMN `settings` SET DEFAULT '' made by activate_plugin, do_action('activate_revslider/revslider.php'), WP_Hook->do_action, WP_Hook->apply_filters, RevSliderFrontGlobal::do_activation_actions, RevSliderFrontGlobal::create_tables, dbDelta
+[17-Feb-2025 19:31:37 UTC] WordPress database error BLOB, TEXT, GEOMETRY or JSON column 'settings' can't have a default value for query ALTER TABLE uni_revslider_slides7 ALTER COLUMN `settings` SET DEFAULT '' made by activate_plugin, do_action('activate_revslider/revslider.php'), WP_Hook->do_action, WP_Hook->apply_filters, RevSliderFrontGlobal::do_activation_actions, RevSliderFrontGlobal::create_tables, dbDelta
+[18-Feb-2025 13:39:49 UTC] PHP Fatal error:  Uncaught Error: Class 'ThemescampPlugin\Elementor\Controls\TCG_Helper' not found in /home5/qjgsmzll/qsa.az/wp-content/plugins/element-camp/elements/widgets/interactive-links-showcase/interactive-links-showcase.php:106
+Stack trace:
+#0 /home5/qjgsmzll/qsa.az/wp-content/plugins/elementor/includes/base/controls-stack.php(2425): ElementCampPlugin\Widgets\elementcamp_Interactive_Links_Showcase->_register_controls()
+#1 /home5/qjgsmzll/qsa.az/wp-content/plugins/elementor/includes/base/widget-base.php(1050): Elementor\Controls_Stack->init_controls()
+#2 /home5/qjgsmzll/qsa.az/wp-content/plugins/elementor/includes/base/controls-stack.php(569): Elementor\Widget_Base->init_controls()
+#3 /home5/qjgsmzll/qsa.az/wp-content/plugins/elementor/includes/base/widget-base.php(184): Elementor\Controls_Stack->get_stack()
+#4 /home5/qjgsmzll/qsa.az/wp-content/plugins/elementor/includes/managers/widgets.php(391): Elementor\Widget_Base->get_stack(false)
+#5 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_co in /home5/qjgsmzll/qsa.az/wp-content/plugins/element-camp/elements/widgets/interactive-links-showcase/interactive-links-showcase.php on line 106
+[18-Feb-2025 13:41:12 UTC] PHP Fatal error:  Uncaught Error: Class 'ThemescampPlugin\Elementor\Controls\TCG_Helper' not found in /home5/qjgsmzll/qsa.az/wp-content/plugins/element-camp/elements/widgets/interactive-links-showcase/interactive-links-showcase.php:106
+Stack trace:
+#0 /home5/qjgsmzll/qsa.az/wp-content/plugins/elementor/includes/base/controls-stack.php(2425): ElementCampPlugin\Widgets\elementcamp_Interactive_Links_Showcase->_register_controls()
+#1 /home5/qjgsmzll/qsa.az/wp-content/plugins/elementor/includes/base/widget-base.php(1050): Elementor\Controls_Stack->init_controls()
+#2 /home5/qjgsmzll/qsa.az/wp-content/plugins/elementor/includes/base/controls-stack.php(569): Elementor\Widget_Base->init_controls()
+#3 /home5/qjgsmzll/qsa.az/wp-content/plugins/elementor/includes/base/widget-base.php(184): Elementor\Controls_Stack->get_stack()
+#4 /home5/qjgsmzll/qsa.az/wp-content/plugins/elementor/includes/managers/widgets.php(391): Elementor\Widget_Base->get_stack(false)
+#5 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_co in /home5/qjgsmzll/qsa.az/wp-content/plugins/element-camp/elements/widgets/interactive-links-showcase/interactive-links-showcase.php on line 106
+[19-Feb-2025 17:42:18 UTC] WordPress database error Table 'qjgsmzll_wp134.uni_burst_statistics' doesn't exist for query SELECT count(DISTINCT(uid))
+                     	FROM uni_burst_statistics
+                     		WHERE time > 1739986338
+                       		AND ( (time + time_on_page / 1000  + 60) > 1739986938) made by do_action('wp_ajax_burst_rest_api_fallback'), WP_Hook->do_action, WP_Hook->apply_filters, burst_rest_api_fallback, burst_get_data, burst_statistics->get_live_visitors_data
+[19-Feb-2025 17:42:30 UTC] WordPress database error Table 'qjgsmzll_wp134.uni_burst_statistics' doesn't exist for query SELECT count(DISTINCT(uid))
+                     	FROM uni_burst_statistics
+                     		WHERE time > 1739986350
+                       		AND ( (time + time_on_page / 1000  + 60) > 1739986950) made by do_action('wp_ajax_burst_rest_api_fallback'), WP_Hook->do_action, WP_Hook->apply_filters, burst_rest_api_fallback, burst_get_data, burst_statistics->get_live_visitors_data
+[19-Feb-2025 20:29:30 UTC] WordPress database error Table 'qjgsmzll_wp134.uni_burst_statistics' doesn't exist for query SELECT count(DISTINCT(uid))
+                     	FROM uni_burst_statistics
+                     		WHERE time > 1739996370
+                       		AND ( (time + time_on_page / 1000  + 60) > 1739996970) made by do_action('wp_ajax_burst_rest_api_fallback'), WP_Hook->do_action, WP_Hook->apply_filters, burst_rest_api_fallback, burst_get_data, burst_statistics->get_live_visitors_data
+[24-Feb-2025 08:48:48 UTC] WordPress database error Table 'qjgsmzll_wp134.uni_burst_statistics' doesn't exist for query SELECT count(DISTINCT(uid))
+                     	FROM uni_burst_statistics
+                     		WHERE time > 1740386328
+                       		AND ( (time + time_on_page / 1000  + 60) > 1740386928) made by do_action('wp_ajax_burst_rest_api_fallback'), WP_Hook->do_action, WP_Hook->apply_filters, burst_rest_api_fallback, burst_get_data, burst_statistics->get_live_visitors_data
+[24-Feb-2025 08:49:21 UTC] WordPress database error Table 'qjgsmzll_wp134.uni_burst_statistics' doesn't exist for query SELECT count(DISTINCT(uid))
+                     	FROM uni_burst_statistics
+                     		WHERE time > 1740386361
+                       		AND ( (time + time_on_page / 1000  + 60) > 1740386961) made by do_action('wp_ajax_burst_rest_api_fallback'), WP_Hook->do_action, WP_Hook->apply_filters, burst_rest_api_fallback, burst_get_data, burst_statistics->get_live_visitors_data
+[24-Feb-2025 08:49:33 UTC] WordPress database error Table 'qjgsmzll_wp134.uni_burst_statistics' doesn't exist for query SELECT count(DISTINCT(uid))
+                     	FROM uni_burst_statistics
+                     		WHERE time > 1740386373
+                       		AND ( (time + time_on_page / 1000  + 60) > 1740386973) made by do_action('wp_ajax_burst_rest_api_fallback'), WP_Hook->do_action, WP_Hook->apply_filters, burst_rest_api_fallback, burst_get_data, burst_statistics->get_live_visitors_data
+[24-Feb-2025 08:49:44 UTC] WordPress database error Table 'qjgsmzll_wp134.uni_burst_statistics' doesn't exist for query SELECT count(DISTINCT(uid))
+                     	FROM uni_burst_statistics
+                     		WHERE time > 1740386384
+                       		AND ( (time + time_on_page / 1000  + 60) > 1740386984) made by do_action('wp_ajax_burst_rest_api_fallback'), WP_Hook->do_action, WP_Hook->apply_filters, burst_rest_api_fallback, burst_get_data, burst_statistics->get_live_visitors_data
+[24-Feb-2025 08:49:56 UTC] WordPress database error Table 'qjgsmzll_wp134.uni_burst_statistics' doesn't exist for query SELECT count(DISTINCT(uid))
+                     	FROM uni_burst_statistics
+                     		WHERE time > 1740386396
+                       		AND ( (time + time_on_page / 1000  + 60) > 1740386996) made by do_action('wp_ajax_burst_rest_api_fallback'), WP_Hook->do_action, WP_Hook->apply_filters, burst_rest_api_fallback, burst_get_data, burst_statistics->get_live_visitors_data
+[24-Feb-2025 09:39:54 UTC] WordPress database error Table 'qjgsmzll_wp134.uni_burst_statistics' doesn't exist for query SELECT count(DISTINCT(uid))
+                     	FROM uni_burst_statistics
+                     		WHERE time > 1740389394
+                       		AND ( (time + time_on_page / 1000  + 60) > 1740389994) made by do_action('wp_ajax_burst_rest_api_fallback'), WP_Hook->do_action, WP_Hook->apply_filters, burst_rest_api_fallback, burst_get_data, burst_statistics->get_live_visitors_data
+[24-Feb-2025 09:40:06 UTC] WordPress database error Table 'qjgsmzll_wp134.uni_burst_statistics' doesn't exist for query SELECT count(DISTINCT(uid))
+                     	FROM uni_burst_statistics
+                     		WHERE time > 1740389406
+                       		AND ( (time + time_on_page / 1000  + 60) > 1740390006) made by do_action('wp_ajax_burst_rest_api_fallback'), WP_Hook->do_action, WP_Hook->apply_filters, burst_rest_api_fallback, burst_get_data, burst_statistics->get_live_visitors_data
+[24-Feb-2025 09:40:17 UTC] WordPress database error Table 'qjgsmzll_wp134.uni_burst_statistics' doesn't exist for query SELECT count(DISTINCT(uid))
+                     	FROM uni_burst_statistics
+                     		WHERE time > 1740389417
+                       		AND ( (time + time_on_page / 1000  + 60) > 1740390017) made by do_action('wp_ajax_burst_rest_api_fallback'), WP_Hook->do_action, WP_Hook->apply_filters, burst_rest_api_fallback, burst_get_data, burst_statistics->get_live_visitors_data
+[25-Feb-2025 13:13:58 UTC] WordPress database error Table 'qjgsmzll_wp134.uni_burst_statistics' doesn't exist for query SELECT count(DISTINCT(uid))
+                     	FROM uni_burst_statistics
+                     		WHERE time > 1740488638
+                       		AND ( (time + time_on_page / 1000  + 60) > 1740489238) made by do_action('wp_ajax_burst_rest_api_fallback'), WP_Hook->do_action, WP_Hook->apply_filters, burst_rest_api_fallback, burst_get_data, burst_statistics->get_live_visitors_data
+[25-Feb-2025 13:14:09 UTC] WordPress database error Table 'qjgsmzll_wp134.uni_burst_statistics' doesn't exist for query SELECT count(DISTINCT(uid))
+                     	FROM uni_burst_statistics
+                     		WHERE time > 1740488649
+                       		AND ( (time + time_on_page / 1000  + 60) > 1740489249) made by do_action('wp_ajax_burst_rest_api_fallback'), WP_Hook->do_action, WP_Hook->apply_filters, burst_rest_api_fallback, burst_get_data, burst_statistics->get_live_visitors_data
+[25-Feb-2025 13:14:20 UTC] WordPress database error Table 'qjgsmzll_wp134.uni_burst_statistics' doesn't exist for query SELECT count(DISTINCT(uid))
+                     	FROM uni_burst_statistics
+                     		WHERE time > 1740488660
+                       		AND ( (time + time_on_page / 1000  + 60) > 1740489260) made by do_action('wp_ajax_burst_rest_api_fallback'), WP_Hook->do_action, WP_Hook->apply_filters, burst_rest_api_fallback, burst_get_data, burst_statistics->get_live_visitors_data
+[25-Feb-2025 13:14:43 UTC] WordPress database error Table 'qjgsmzll_wp134.uni_burst_statistics' doesn't exist for query SELECT count(DISTINCT(uid))
+                     	FROM uni_burst_statistics
+                     		WHERE time > 1740488683
+                       		AND ( (time + time_on_page / 1000  + 60) > 1740489283) made by do_action('wp_ajax_burst_rest_api_fallback'), WP_Hook->do_action, WP_Hook->apply_filters, burst_rest_api_fallback, burst_get_data, burst_statistics->get_live_visitors_data
+[25-Feb-2025 13:43:53 UTC] WordPress database error Table 'qjgsmzll_wp134.uni_burst_statistics' doesn't exist for query SELECT count(DISTINCT(uid))
+                     	FROM uni_burst_statistics
+                     		WHERE time > 1740490433
+                       		AND ( (time + time_on_page / 1000  + 60) > 1740491033) made by do_action('wp_ajax_burst_rest_api_fallback'), WP_Hook->do_action, WP_Hook->apply_filters, burst_rest_api_fallback, burst_get_data, burst_statistics->get_live_visitors_data

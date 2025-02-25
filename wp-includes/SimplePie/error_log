@@ -1,0 +1,36 @@
+[19-Oct-2022 22:17:38 UTC] PHP Fatal error:  Uncaught Error: Class 'SimplePie' not found in /home/vrvufklv/unicode.az/wp-includes/SimplePie/Core.php:53
+Stack trace:
+#0 {main}
+  thrown in /home/vrvufklv/unicode.az/wp-includes/SimplePie/Core.php on line 53
+[20-Oct-2022 07:40:08 UTC] PHP Fatal error:  Uncaught Error: Class 'SimplePie' not found in /home/vrvufklv/unicode.az/wp-includes/SimplePie/Core.php:53
+Stack trace:
+#0 {main}
+  thrown in /home/vrvufklv/unicode.az/wp-includes/SimplePie/Core.php on line 53
+[07-Oct-2023 12:09:16 UTC] PHP Fatal error:  Uncaught Error: Class 'SimplePie' not found in /home5/qjgsmzll/public_html/wp-includes/SimplePie/Core.php:53
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/SimplePie/Core.php on line 53
+[16-Nov-2023 21:47:17 UTC] PHP Fatal error:  Uncaught Error: Class 'SimplePie' not found in /home5/qjgsmzll/public_html/wp-includes/SimplePie/Core.php:53
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/SimplePie/Core.php on line 53
+[19-Nov-2023 06:00:49 UTC] PHP Fatal error:  Uncaught Error: Class 'SimplePie' not found in /home5/qjgsmzll/public_html/wp-includes/SimplePie/Core.php:53
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/SimplePie/Core.php on line 53
+[22-Nov-2023 07:24:44 UTC] PHP Fatal error:  Uncaught Error: Class 'SimplePie' not found in /home5/qjgsmzll/public_html/wp-includes/SimplePie/Core.php:53
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/SimplePie/Core.php on line 53
+[09-May-2024 23:31:34 UTC] PHP Fatal error:  Uncaught Error: Class 'SimplePie' not found in /home5/qjgsmzll/public_html/wp-includes/SimplePie/Core.php:53
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/SimplePie/Core.php on line 53
+[02-Jul-2024 19:22:30 UTC] PHP Fatal error:  Uncaught Error: Class 'SimplePie' not found in /home5/qjgsmzll/public_html/wp-includes/SimplePie/Core.php:53
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/SimplePie/Core.php on line 53
+[01-Oct-2024 23:53:39 UTC] PHP Fatal error:  Uncaught Error: Class 'SimplePie' not found in /home5/qjgsmzll/public_html/wp-includes/SimplePie/Core.php:53
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/SimplePie/Core.php on line 53

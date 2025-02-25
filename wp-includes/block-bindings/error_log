@@ -1,0 +1,8 @@
+[02-Oct-2024 00:02:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home5/qjgsmzll/public_html/wp-includes/block-bindings/pattern-overrides.php:47
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/block-bindings/pattern-overrides.php on line 47
+[02-Oct-2024 00:02:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home5/qjgsmzll/public_html/wp-includes/block-bindings/post-meta.php:70
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/block-bindings/post-meta.php on line 70

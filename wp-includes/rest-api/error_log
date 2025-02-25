@@ -1,0 +1,28 @@
+[19-Oct-2022 22:24:44 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_HTTP_Response' not found in /home/vrvufklv/unicode.az/wp-includes/rest-api/class-wp-rest-response.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/vrvufklv/unicode.az/wp-includes/rest-api/class-wp-rest-response.php on line 17
+[20-Oct-2022 07:47:34 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_HTTP_Response' not found in /home/vrvufklv/unicode.az/wp-includes/rest-api/class-wp-rest-response.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/vrvufklv/unicode.az/wp-includes/rest-api/class-wp-rest-response.php on line 17
+[07-Oct-2023 12:23:05 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_HTTP_Response' not found in /home5/qjgsmzll/public_html/wp-includes/rest-api/class-wp-rest-response.php:17
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/rest-api/class-wp-rest-response.php on line 17
+[16-Nov-2023 21:47:19 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_HTTP_Response' not found in /home5/qjgsmzll/public_html/wp-includes/rest-api/class-wp-rest-response.php:17
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/rest-api/class-wp-rest-response.php on line 17
+[22-Nov-2023 07:24:47 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_HTTP_Response' not found in /home5/qjgsmzll/public_html/wp-includes/rest-api/class-wp-rest-response.php:17
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/rest-api/class-wp-rest-response.php on line 17
+[09-May-2024 23:00:10 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_HTTP_Response' not found in /home5/qjgsmzll/public_html/wp-includes/rest-api/class-wp-rest-response.php:17
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/rest-api/class-wp-rest-response.php on line 17
+[02-Oct-2024 00:32:32 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_HTTP_Response' not found in /home5/qjgsmzll/public_html/wp-includes/rest-api/class-wp-rest-response.php:17
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/rest-api/class-wp-rest-response.php on line 17

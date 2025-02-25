@@ -1,0 +1,64 @@
+[19-Oct-2022 22:26:18 UTC] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core_Util' not found in /home/vrvufklv/unicode.az/wp-includes/sodium_compat/src/Core/Poly1305/State.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/vrvufklv/unicode.az/wp-includes/sodium_compat/src/Core/Poly1305/State.php on line 10
+[20-Oct-2022 07:49:11 UTC] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core_Util' not found in /home/vrvufklv/unicode.az/wp-includes/sodium_compat/src/Core/Poly1305/State.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/vrvufklv/unicode.az/wp-includes/sodium_compat/src/Core/Poly1305/State.php on line 10
+[08-Jul-2023 08:26:03 UTC] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core_Util' not found in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Poly1305/State.php:10
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Poly1305/State.php on line 10
+[08-Jul-2023 08:26:03 UTC] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core_Util' not found in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Poly1305/State.php:10
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Poly1305/State.php on line 10
+[26-Jul-2023 18:41:49 UTC] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core_Util' not found in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Poly1305/State.php:10
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Poly1305/State.php on line 10
+[26-Jul-2023 18:50:37 UTC] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core_Util' not found in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Poly1305/State.php:10
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Poly1305/State.php on line 10
+[05-Aug-2023 04:06:42 UTC] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core_Util' not found in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Poly1305/State.php:10
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Poly1305/State.php on line 10
+[05-Aug-2023 04:11:32 UTC] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core_Util' not found in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Poly1305/State.php:10
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Poly1305/State.php on line 10
+[02-Oct-2023 06:09:15 UTC] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core_Util' not found in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Poly1305/State.php:10
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Poly1305/State.php on line 10
+[02-Oct-2023 06:17:03 UTC] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core_Util' not found in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Poly1305/State.php:10
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Poly1305/State.php on line 10
+[11-Oct-2023 22:49:59 UTC] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core_Util' not found in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Poly1305/State.php:10
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Poly1305/State.php on line 10
+[11-Oct-2023 22:59:43 UTC] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core_Util' not found in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Poly1305/State.php:10
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Poly1305/State.php on line 10
+[01-Nov-2023 01:52:26 UTC] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core_Util' not found in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Poly1305/State.php:10
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Poly1305/State.php on line 10
+[01-Nov-2023 02:00:22 UTC] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core_Util' not found in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Poly1305/State.php:10
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Poly1305/State.php on line 10
+[29-Nov-2023 11:55:09 UTC] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core_Util' not found in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Poly1305/State.php:10
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Poly1305/State.php on line 10
+[29-Nov-2023 12:03:24 UTC] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core_Util' not found in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Poly1305/State.php:10
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Poly1305/State.php on line 10

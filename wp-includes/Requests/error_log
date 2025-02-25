@@ -1,0 +1,8 @@
+[19-Oct-2022 22:16:29 UTC] PHP Fatal error:  Uncaught Error: Interface 'Requests_Hooker' not found in /home/vrvufklv/unicode.az/wp-includes/Requests/Hooks.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/vrvufklv/unicode.az/wp-includes/Requests/Hooks.php on line 15
+[20-Oct-2022 07:39:02 UTC] PHP Fatal error:  Uncaught Error: Interface 'Requests_Hooker' not found in /home/vrvufklv/unicode.az/wp-includes/Requests/Hooks.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/vrvufklv/unicode.az/wp-includes/Requests/Hooks.php on line 15

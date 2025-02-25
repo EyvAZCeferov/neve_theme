@@ -1,0 +1,72 @@
+[19-Oct-2022 22:25:31 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Sitemaps_Provider' not found in /home/vrvufklv/unicode.az/wp-includes/sitemaps/providers/class-wp-sitemaps-posts.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/vrvufklv/unicode.az/wp-includes/sitemaps/providers/class-wp-sitemaps-posts.php on line 17
+[19-Oct-2022 22:25:31 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Sitemaps_Provider' not found in /home/vrvufklv/unicode.az/wp-includes/sitemaps/providers/class-wp-sitemaps-taxonomies.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/vrvufklv/unicode.az/wp-includes/sitemaps/providers/class-wp-sitemaps-taxonomies.php on line 17
+[19-Oct-2022 22:25:32 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Sitemaps_Provider' not found in /home/vrvufklv/unicode.az/wp-includes/sitemaps/providers/class-wp-sitemaps-users.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/vrvufklv/unicode.az/wp-includes/sitemaps/providers/class-wp-sitemaps-users.php on line 17
+[20-Oct-2022 07:48:21 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Sitemaps_Provider' not found in /home/vrvufklv/unicode.az/wp-includes/sitemaps/providers/class-wp-sitemaps-posts.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/vrvufklv/unicode.az/wp-includes/sitemaps/providers/class-wp-sitemaps-posts.php on line 17
+[20-Oct-2022 07:48:22 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Sitemaps_Provider' not found in /home/vrvufklv/unicode.az/wp-includes/sitemaps/providers/class-wp-sitemaps-taxonomies.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/vrvufklv/unicode.az/wp-includes/sitemaps/providers/class-wp-sitemaps-taxonomies.php on line 17
+[20-Oct-2022 07:48:23 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Sitemaps_Provider' not found in /home/vrvufklv/unicode.az/wp-includes/sitemaps/providers/class-wp-sitemaps-users.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/vrvufklv/unicode.az/wp-includes/sitemaps/providers/class-wp-sitemaps-users.php on line 17
+[07-Oct-2023 12:27:44 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Sitemaps_Provider' not found in /home5/qjgsmzll/public_html/wp-includes/sitemaps/providers/class-wp-sitemaps-posts.php:17
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/sitemaps/providers/class-wp-sitemaps-posts.php on line 17
+[07-Oct-2023 12:27:48 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Sitemaps_Provider' not found in /home5/qjgsmzll/public_html/wp-includes/sitemaps/providers/class-wp-sitemaps-taxonomies.php:17
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/sitemaps/providers/class-wp-sitemaps-taxonomies.php on line 17
+[07-Oct-2023 12:27:52 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Sitemaps_Provider' not found in /home5/qjgsmzll/public_html/wp-includes/sitemaps/providers/class-wp-sitemaps-users.php:17
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/sitemaps/providers/class-wp-sitemaps-users.php on line 17
+[16-Nov-2023 21:47:58 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Sitemaps_Provider' not found in /home5/qjgsmzll/public_html/wp-includes/sitemaps/providers/class-wp-sitemaps-posts.php:17
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/sitemaps/providers/class-wp-sitemaps-posts.php on line 17
+[16-Nov-2023 21:47:58 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Sitemaps_Provider' not found in /home5/qjgsmzll/public_html/wp-includes/sitemaps/providers/class-wp-sitemaps-taxonomies.php:17
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/sitemaps/providers/class-wp-sitemaps-taxonomies.php on line 17
+[16-Nov-2023 21:47:58 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Sitemaps_Provider' not found in /home5/qjgsmzll/public_html/wp-includes/sitemaps/providers/class-wp-sitemaps-users.php:17
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/sitemaps/providers/class-wp-sitemaps-users.php on line 17
+[22-Nov-2023 07:25:28 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Sitemaps_Provider' not found in /home5/qjgsmzll/public_html/wp-includes/sitemaps/providers/class-wp-sitemaps-posts.php:17
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/sitemaps/providers/class-wp-sitemaps-posts.php on line 17
+[22-Nov-2023 07:25:28 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Sitemaps_Provider' not found in /home5/qjgsmzll/public_html/wp-includes/sitemaps/providers/class-wp-sitemaps-taxonomies.php:17
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/sitemaps/providers/class-wp-sitemaps-taxonomies.php on line 17
+[22-Nov-2023 07:25:28 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Sitemaps_Provider' not found in /home5/qjgsmzll/public_html/wp-includes/sitemaps/providers/class-wp-sitemaps-users.php:17
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/sitemaps/providers/class-wp-sitemaps-users.php on line 17
+[02-Oct-2024 00:45:52 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Sitemaps_Provider' not found in /home5/qjgsmzll/public_html/wp-includes/sitemaps/providers/class-wp-sitemaps-posts.php:17
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/sitemaps/providers/class-wp-sitemaps-posts.php on line 17
+[02-Oct-2024 00:46:08 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Sitemaps_Provider' not found in /home5/qjgsmzll/public_html/wp-includes/sitemaps/providers/class-wp-sitemaps-taxonomies.php:17
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/sitemaps/providers/class-wp-sitemaps-taxonomies.php on line 17
+[02-Oct-2024 00:46:20 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Sitemaps_Provider' not found in /home5/qjgsmzll/public_html/wp-includes/sitemaps/providers/class-wp-sitemaps-users.php:17
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/sitemaps/providers/class-wp-sitemaps-users.php on line 17

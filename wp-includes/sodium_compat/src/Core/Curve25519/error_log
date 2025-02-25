@@ -1,0 +1,64 @@
+[19-Oct-2022 22:26:15 UTC] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core_Util' not found in /home/vrvufklv/unicode.az/wp-includes/sodium_compat/src/Core/Curve25519/H.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/vrvufklv/unicode.az/wp-includes/sodium_compat/src/Core/Curve25519/H.php on line 12
+[20-Oct-2022 07:49:08 UTC] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core_Util' not found in /home/vrvufklv/unicode.az/wp-includes/sodium_compat/src/Core/Curve25519/H.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/vrvufklv/unicode.az/wp-includes/sodium_compat/src/Core/Curve25519/H.php on line 12
+[08-Jul-2023 08:25:52 UTC] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core_Util' not found in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Curve25519/H.php:12
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Curve25519/H.php on line 12
+[08-Jul-2023 08:25:52 UTC] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core_Util' not found in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Curve25519/H.php:12
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Curve25519/H.php on line 12
+[26-Jul-2023 18:40:02 UTC] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core_Util' not found in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Curve25519/H.php:12
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Curve25519/H.php on line 12
+[26-Jul-2023 18:47:35 UTC] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core_Util' not found in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Curve25519/H.php:12
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Curve25519/H.php on line 12
+[05-Aug-2023 04:06:03 UTC] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core_Util' not found in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Curve25519/H.php:12
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Curve25519/H.php on line 12
+[05-Aug-2023 04:10:13 UTC] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core_Util' not found in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Curve25519/H.php:12
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Curve25519/H.php on line 12
+[02-Oct-2023 06:07:54 UTC] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core_Util' not found in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Curve25519/H.php:12
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Curve25519/H.php on line 12
+[02-Oct-2023 06:15:19 UTC] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core_Util' not found in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Curve25519/H.php:12
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Curve25519/H.php on line 12
+[11-Oct-2023 22:48:09 UTC] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core_Util' not found in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Curve25519/H.php:12
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Curve25519/H.php on line 12
+[11-Oct-2023 22:57:30 UTC] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core_Util' not found in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Curve25519/H.php:12
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Curve25519/H.php on line 12
+[01-Nov-2023 01:50:41 UTC] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core_Util' not found in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Curve25519/H.php:12
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Curve25519/H.php on line 12
+[01-Nov-2023 01:58:57 UTC] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core_Util' not found in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Curve25519/H.php:12
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Curve25519/H.php on line 12
+[29-Nov-2023 11:53:53 UTC] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core_Util' not found in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Curve25519/H.php:12
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Curve25519/H.php on line 12
+[29-Nov-2023 12:01:13 UTC] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core_Util' not found in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Curve25519/H.php:12
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/sodium_compat/src/Core/Curve25519/H.php on line 12

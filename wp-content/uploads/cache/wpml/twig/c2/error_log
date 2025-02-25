@@ -1,0 +1,16 @@
+[10-Feb-2021 13:14:08 UTC] PHP Fatal error:  Uncaught Error: Class 'WPML\Core\Twig\Template' not found in /home/vrvufklv/unicode.az/wp-content/uploads/cache/wpml/twig/c2/c2a2ae00d3fbeeb445cab9bb9b882730ea5cb026f48b78d2eaf68a79b603424c.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/vrvufklv/unicode.az/wp-content/uploads/cache/wpml/twig/c2/c2a2ae00d3fbeeb445cab9bb9b882730ea5cb026f48b78d2eaf68a79b603424c.php on line 17
+[07-Dec-2022 14:23:07 UTC] PHP Fatal error:  Uncaught Error: Class 'WPML\Core\Twig\Template' not found in /home/vrvufklv/unicode.az/wp-content/uploads/cache/wpml/twig/c2/c2a2ae00d3fbeeb445cab9bb9b882730ea5cb026f48b78d2eaf68a79b603424c.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/vrvufklv/unicode.az/wp-content/uploads/cache/wpml/twig/c2/c2a2ae00d3fbeeb445cab9bb9b882730ea5cb026f48b78d2eaf68a79b603424c.php on line 17
+[07-Dec-2022 20:59:44 UTC] PHP Fatal error:  Uncaught Error: Class 'WPML\Core\Twig\Template' not found in /home/vrvufklv/unicode.az/wp-content/uploads/cache/wpml/twig/c2/c2a2ae00d3fbeeb445cab9bb9b882730ea5cb026f48b78d2eaf68a79b603424c.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/vrvufklv/unicode.az/wp-content/uploads/cache/wpml/twig/c2/c2a2ae00d3fbeeb445cab9bb9b882730ea5cb026f48b78d2eaf68a79b603424c.php on line 17
+[07-Dec-2022 21:57:23 UTC] PHP Fatal error:  Uncaught Error: Class 'WPML\Core\Twig\Template' not found in /home/vrvufklv/unicode.az/wp-content/uploads/cache/wpml/twig/c2/c2a2ae00d3fbeeb445cab9bb9b882730ea5cb026f48b78d2eaf68a79b603424c.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/vrvufklv/unicode.az/wp-content/uploads/cache/wpml/twig/c2/c2a2ae00d3fbeeb445cab9bb9b882730ea5cb026f48b78d2eaf68a79b603424c.php on line 17

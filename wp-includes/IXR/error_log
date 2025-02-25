@@ -1,0 +1,96 @@
+[19-Oct-2022 22:14:47 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Client' not found in /home/vrvufklv/unicode.az/wp-includes/IXR/class-IXR-clientmulticall.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/vrvufklv/unicode.az/wp-includes/IXR/class-IXR-clientmulticall.php on line 8
+[19-Oct-2022 22:14:52 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Server' not found in /home/vrvufklv/unicode.az/wp-includes/IXR/class-IXR-introspectionserver.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/vrvufklv/unicode.az/wp-includes/IXR/class-IXR-introspectionserver.php on line 9
+[20-Oct-2022 07:37:10 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Client' not found in /home/vrvufklv/unicode.az/wp-includes/IXR/class-IXR-clientmulticall.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/vrvufklv/unicode.az/wp-includes/IXR/class-IXR-clientmulticall.php on line 8
+[20-Oct-2022 07:37:15 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Server' not found in /home/vrvufklv/unicode.az/wp-includes/IXR/class-IXR-introspectionserver.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/vrvufklv/unicode.az/wp-includes/IXR/class-IXR-introspectionserver.php on line 9
+[07-Oct-2023 12:05:00 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Client' not found in /home5/qjgsmzll/public_html/wp-includes/IXR/class-IXR-clientmulticall.php:8
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/IXR/class-IXR-clientmulticall.php on line 8
+[07-Oct-2023 12:05:16 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Server' not found in /home5/qjgsmzll/public_html/wp-includes/IXR/class-IXR-introspectionserver.php:9
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/IXR/class-IXR-introspectionserver.php on line 9
+[16-Nov-2023 21:47:16 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Client' not found in /home5/qjgsmzll/public_html/wp-includes/IXR/class-IXR-clientmulticall.php:8
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/IXR/class-IXR-clientmulticall.php on line 8
+[16-Nov-2023 21:47:16 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Server' not found in /home5/qjgsmzll/public_html/wp-includes/IXR/class-IXR-introspectionserver.php:9
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/IXR/class-IXR-introspectionserver.php on line 9
+[19-Nov-2023 05:49:49 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Client' not found in /home5/qjgsmzll/public_html/wp-includes/IXR/class-IXR-clientmulticall.php:8
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/IXR/class-IXR-clientmulticall.php on line 8
+[19-Nov-2023 05:50:24 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Server' not found in /home5/qjgsmzll/public_html/wp-includes/IXR/class-IXR-introspectionserver.php:9
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/IXR/class-IXR-introspectionserver.php on line 9
+[22-Nov-2023 07:24:43 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Client' not found in /home5/qjgsmzll/public_html/wp-includes/IXR/class-IXR-clientmulticall.php:8
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/IXR/class-IXR-clientmulticall.php on line 8
+[22-Nov-2023 07:24:44 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Server' not found in /home5/qjgsmzll/public_html/wp-includes/IXR/class-IXR-introspectionserver.php:9
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/IXR/class-IXR-introspectionserver.php on line 9
+[23-Nov-2023 09:58:17 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Client' not found in /home5/qjgsmzll/public_html/wp-includes/IXR/class-IXR-clientmulticall.php:8
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/IXR/class-IXR-clientmulticall.php on line 8
+[23-Nov-2023 09:58:24 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Server' not found in /home5/qjgsmzll/public_html/wp-includes/IXR/class-IXR-introspectionserver.php:9
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/IXR/class-IXR-introspectionserver.php on line 9
+[12-Feb-2024 23:16:53 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Client' not found in /home5/qjgsmzll/public_html/wp-includes/IXR/class-IXR-clientmulticall.php:8
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/IXR/class-IXR-clientmulticall.php on line 8
+[12-Feb-2024 23:17:14 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Server' not found in /home5/qjgsmzll/public_html/wp-includes/IXR/class-IXR-introspectionserver.php:9
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/IXR/class-IXR-introspectionserver.php on line 9
+[09-May-2024 23:29:04 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Client' not found in /home5/qjgsmzll/public_html/wp-includes/IXR/class-IXR-clientmulticall.php:8
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/IXR/class-IXR-clientmulticall.php on line 8
+[09-May-2024 23:29:30 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Server' not found in /home5/qjgsmzll/public_html/wp-includes/IXR/class-IXR-introspectionserver.php:9
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/IXR/class-IXR-introspectionserver.php on line 9
+[30-Jun-2024 05:54:48 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Client' not found in /home5/qjgsmzll/public_html/wp-includes/IXR/class-IXR-clientmulticall.php:8
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/IXR/class-IXR-clientmulticall.php on line 8
+[30-Jun-2024 05:55:17 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Server' not found in /home5/qjgsmzll/public_html/wp-includes/IXR/class-IXR-introspectionserver.php:9
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/IXR/class-IXR-introspectionserver.php on line 9
+[02-Jul-2024 19:20:26 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Client' not found in /home5/qjgsmzll/public_html/wp-includes/IXR/class-IXR-clientmulticall.php:8
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/IXR/class-IXR-clientmulticall.php on line 8
+[02-Jul-2024 19:20:44 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Server' not found in /home5/qjgsmzll/public_html/wp-includes/IXR/class-IXR-introspectionserver.php:9
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/IXR/class-IXR-introspectionserver.php on line 9
+[01-Oct-2024 23:43:16 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Client' not found in /home5/qjgsmzll/public_html/wp-includes/IXR/class-IXR-clientmulticall.php:8
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/IXR/class-IXR-clientmulticall.php on line 8
+[01-Oct-2024 23:43:48 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Server' not found in /home5/qjgsmzll/public_html/wp-includes/IXR/class-IXR-introspectionserver.php:9
+Stack trace:
+#0 {main}
+  thrown in /home5/qjgsmzll/public_html/wp-includes/IXR/class-IXR-introspectionserver.php on line 9

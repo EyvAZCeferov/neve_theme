@@ -1,0 +1,288 @@
+[25-Feb-2025 18:53:02 UTC] WordPress database error Table 'qsaaxmsq_wp820.uni_burst_statistics' doesn't exist for query INSERT INTO uni_burst_summary (date, page_url, sessions, pageviews, visitors, first_time_visitors, bounces, avg_time_on_page, completed)
+							SELECT
+							    '2025-02-24' AS date,
+							    source.page_url,
+							    source.sessions,
+							    source.pageviews,
+							    source.visitors,
+							    source.first_time_visitors,
+							    source.bounces,
+							    source.avg_time_on_page,
+								'1' AS completed
+							FROM (
+							    SELECT COALESCE( SUM( CASE WHEN bounce = 0 THEN 1 ELSE 0 END ), 0) as pageviews, COUNT(DISTINCT CASE WHEN bounce = 0 THEN statistics.uid END) as visitors, COALESCE( SUM( CASE WHEN bounce = 0 THEN statistics.first_time_visit ELSE 0 END ), 0 )  as first_time_visitors, statistics.page_url as page_url, COALESCE( SUM( CASE WHEN bounce = 1 THEN 1 ELSE 0 END ), 0) as bounces, COUNT( DISTINCT CASE WHEN bounce = 0 THEN statistics.session_id END ) as sessions, COALESCE( AVG( CASE WHEN bounce = 0 THEN statistics.time_on_page END ), 0 ) as avg_time_on_page FROM uni_burst_statistics AS statistics  WHERE time > 1740340800 AND time < 1740427199  GROUP BY page_url  
+							) AS source
+							ON DUPLICATE KEY UPDATE
+							    date = date,
+							    page_url = source.page_url,
+							    sessions = source.sessions,
+							    pageviews = source.pageviews,
+							    visitors = source.visitors,
+							    first_time_visitors = COALESCE(source.first_time_visitors, 0),
+							    bounces = source.bounces,
+							    avg_time_on_page = source.avg_time_on_page,
+							    completed = completed; made by do_action_ref_array('burst_every_hour'), WP_Hook->do_action, WP_Hook->apply_filters, burst_summary->update_summary_table_today, burst_summary->update_summary_table
+[25-Feb-2025 18:53:02 UTC] WordPress database error Table 'qsaaxmsq_wp820.uni_burst_statistics' doesn't exist for query INSERT INTO uni_burst_summary (date, page_url, sessions, pageviews, visitors, first_time_visitors, bounces, avg_time_on_page, completed)
+							SELECT
+							    '2025-02-24' AS date,
+							    'burst_day_total' as page_url,
+							    source.sessions,
+							    source.pageviews,
+							    source.visitors,
+							    source.first_time_visitors,
+							    source.bounces,
+							    source.avg_time_on_page,
+								'1' AS completed
+							FROM (
+							    SELECT COALESCE( SUM( CASE WHEN bounce = 0 THEN 1 ELSE 0 END ), 0) as pageviews, COUNT(DISTINCT CASE WHEN bounce = 0 THEN statistics.uid END) as visitors, COALESCE( SUM( CASE WHEN bounce = 0 THEN statistics.first_time_visit ELSE 0 END ), 0 )  as first_time_visitors, COALESCE( SUM( CASE WHEN bounce = 1 THEN 1 ELSE 0 END ), 0) as bounces, COUNT( DISTINCT CASE WHEN bounce = 0 THEN statistics.session_id END ) as sessions, COALESCE( AVG( CASE WHEN bounce = 0 THEN statistics.time_on_page END ), 0 ) as avg_time_on_page FROM uni_burst_statistics AS statistics  WHERE time > 1740340800 AND time < 1740427199    
+							) AS source
+							ON DUPLICATE KEY UPDATE
+							    date = date,
+							    page_url = page_url,
+							    sessions = source.sessions,
+							    pageviews = source.pageviews,
+							    visitors = source.visitors,
+							    first_time_visitors = COALESCE(source.first_time_visitors, 0),
+							    bounces = source.bounces,
+							    avg_time_on_page = COALESCE(source.avg_time_on_page, 0),
+							    completed = completed; made by do_action_ref_array('burst_every_hour'), WP_Hook->do_action, WP_Hook->apply_filters, burst_summary->update_summary_table_today, burst_summary->update_summary_table
+[25-Feb-2025 18:53:02 UTC] WordPress database error Table 'qsaaxmsq_wp820.uni_burst_statistics' doesn't exist for query INSERT INTO uni_burst_summary (date, page_url, sessions, pageviews, visitors, first_time_visitors, bounces, avg_time_on_page, completed)
+							SELECT
+							    '2025-02-25' AS date,
+							    source.page_url,
+							    source.sessions,
+							    source.pageviews,
+							    source.visitors,
+							    source.first_time_visitors,
+							    source.bounces,
+							    source.avg_time_on_page,
+								'0' AS completed
+							FROM (
+							    SELECT COALESCE( SUM( CASE WHEN bounce = 0 THEN 1 ELSE 0 END ), 0) as pageviews, COUNT(DISTINCT CASE WHEN bounce = 0 THEN statistics.uid END) as visitors, COALESCE( SUM( CASE WHEN bounce = 0 THEN statistics.first_time_visit ELSE 0 END ), 0 )  as first_time_visitors, statistics.page_url as page_url, COALESCE( SUM( CASE WHEN bounce = 1 THEN 1 ELSE 0 END ), 0) as bounces, COUNT( DISTINCT CASE WHEN bounce = 0 THEN statistics.session_id END ) as sessions, COALESCE( AVG( CASE WHEN bounce = 0 THEN statistics.time_on_page END ), 0 ) as avg_time_on_page FROM uni_burst_statistics AS statistics  WHERE time > 1740427200 AND time < 1740513599  GROUP BY page_url  
+							) AS source
+							ON DUPLICATE KEY UPDATE
+							    date = date,
+							    page_url = source.page_url,
+							    sessions = source.sessions,
+							    pageviews = source.pageviews,
+							    visitors = source.visitors,
+							    first_time_visitors = COALESCE(source.first_time_visitors, 0),
+							    bounces = source.bounces,
+							    avg_time_on_page = source.avg_time_on_page,
+							    completed = completed; made by do_action_ref_array('burst_every_hour'), WP_Hook->do_action, WP_Hook->apply_filters, burst_summary->update_summary_table_today, burst_summary->update_summary_table
+[25-Feb-2025 18:53:02 UTC] WordPress database error Table 'qsaaxmsq_wp820.uni_burst_statistics' doesn't exist for query INSERT INTO uni_burst_summary (date, page_url, sessions, pageviews, visitors, first_time_visitors, bounces, avg_time_on_page, completed)
+							SELECT
+							    '2025-02-25' AS date,
+							    'burst_day_total' as page_url,
+							    source.sessions,
+							    source.pageviews,
+							    source.visitors,
+							    source.first_time_visitors,
+							    source.bounces,
+							    source.avg_time_on_page,
+								'0' AS completed
+							FROM (
+							    SELECT COALESCE( SUM( CASE WHEN bounce = 0 THEN 1 ELSE 0 END ), 0) as pageviews, COUNT(DISTINCT CASE WHEN bounce = 0 THEN statistics.uid END) as visitors, COALESCE( SUM( CASE WHEN bounce = 0 THEN statistics.first_time_visit ELSE 0 END ), 0 )  as first_time_visitors, COALESCE( SUM( CASE WHEN bounce = 1 THEN 1 ELSE 0 END ), 0) as bounces, COUNT( DISTINCT CASE WHEN bounce = 0 THEN statistics.session_id END ) as sessions, COALESCE( AVG( CASE WHEN bounce = 0 THEN statistics.time_on_page END ), 0 ) as avg_time_on_page FROM uni_burst_statistics AS statistics  WHERE time > 1740427200 AND time < 1740513599    
+							) AS source
+							ON DUPLICATE KEY UPDATE
+							    date = date,
+							    page_url = page_url,
+							    sessions = source.sessions,
+							    pageviews = source.pageviews,
+							    visitors = source.visitors,
+							    first_time_visitors = COALESCE(source.first_time_visitors, 0),
+							    bounces = source.bounces,
+							    avg_time_on_page = COALESCE(source.avg_time_on_page, 0),
+							    completed = completed; made by do_action_ref_array('burst_every_hour'), WP_Hook->do_action, WP_Hook->apply_filters, burst_summary->update_summary_table_today, burst_summary->update_summary_table
+[25-Feb-2025 19:27:22 UTC] WordPress database error Table 'qsaaxmsq_wp820.uni_burst_statistics' doesn't exist for query INSERT INTO uni_burst_summary (date, page_url, sessions, pageviews, visitors, first_time_visitors, bounces, avg_time_on_page, completed)
+							SELECT
+							    '2025-02-24' AS date,
+							    source.page_url,
+							    source.sessions,
+							    source.pageviews,
+							    source.visitors,
+							    source.first_time_visitors,
+							    source.bounces,
+							    source.avg_time_on_page,
+								'1' AS completed
+							FROM (
+							    SELECT COALESCE( SUM( CASE WHEN bounce = 0 THEN 1 ELSE 0 END ), 0) as pageviews, COUNT(DISTINCT CASE WHEN bounce = 0 THEN statistics.uid END) as visitors, COALESCE( SUM( CASE WHEN bounce = 0 THEN statistics.first_time_visit ELSE 0 END ), 0 )  as first_time_visitors, statistics.page_url as page_url, COALESCE( SUM( CASE WHEN bounce = 1 THEN 1 ELSE 0 END ), 0) as bounces, COUNT( DISTINCT CASE WHEN bounce = 0 THEN statistics.session_id END ) as sessions, COALESCE( AVG( CASE WHEN bounce = 0 THEN statistics.time_on_page END ), 0 ) as avg_time_on_page FROM uni_burst_statistics AS statistics  WHERE time > 1740340800 AND time < 1740427199  GROUP BY page_url  
+							) AS source
+							ON DUPLICATE KEY UPDATE
+							    date = date,
+							    page_url = source.page_url,
+							    sessions = source.sessions,
+							    pageviews = source.pageviews,
+							    visitors = source.visitors,
+							    first_time_visitors = COALESCE(source.first_time_visitors, 0),
+							    bounces = source.bounces,
+							    avg_time_on_page = source.avg_time_on_page,
+							    completed = completed; made by do_action_ref_array('burst_every_hour'), WP_Hook->do_action, WP_Hook->apply_filters, burst_summary->update_summary_table_today, burst_summary->update_summary_table
+[25-Feb-2025 19:27:22 UTC] WordPress database error Table 'qsaaxmsq_wp820.uni_burst_statistics' doesn't exist for query INSERT INTO uni_burst_summary (date, page_url, sessions, pageviews, visitors, first_time_visitors, bounces, avg_time_on_page, completed)
+							SELECT
+							    '2025-02-24' AS date,
+							    'burst_day_total' as page_url,
+							    source.sessions,
+							    source.pageviews,
+							    source.visitors,
+							    source.first_time_visitors,
+							    source.bounces,
+							    source.avg_time_on_page,
+								'1' AS completed
+							FROM (
+							    SELECT COALESCE( SUM( CASE WHEN bounce = 0 THEN 1 ELSE 0 END ), 0) as pageviews, COUNT(DISTINCT CASE WHEN bounce = 0 THEN statistics.uid END) as visitors, COALESCE( SUM( CASE WHEN bounce = 0 THEN statistics.first_time_visit ELSE 0 END ), 0 )  as first_time_visitors, COALESCE( SUM( CASE WHEN bounce = 1 THEN 1 ELSE 0 END ), 0) as bounces, COUNT( DISTINCT CASE WHEN bounce = 0 THEN statistics.session_id END ) as sessions, COALESCE( AVG( CASE WHEN bounce = 0 THEN statistics.time_on_page END ), 0 ) as avg_time_on_page FROM uni_burst_statistics AS statistics  WHERE time > 1740340800 AND time < 1740427199    
+							) AS source
+							ON DUPLICATE KEY UPDATE
+							    date = date,
+							    page_url = page_url,
+							    sessions = source.sessions,
+							    pageviews = source.pageviews,
+							    visitors = source.visitors,
+							    first_time_visitors = COALESCE(source.first_time_visitors, 0),
+							    bounces = source.bounces,
+							    avg_time_on_page = COALESCE(source.avg_time_on_page, 0),
+							    completed = completed; made by do_action_ref_array('burst_every_hour'), WP_Hook->do_action, WP_Hook->apply_filters, burst_summary->update_summary_table_today, burst_summary->update_summary_table
+[25-Feb-2025 19:27:22 UTC] WordPress database error Table 'qsaaxmsq_wp820.uni_burst_statistics' doesn't exist for query INSERT INTO uni_burst_summary (date, page_url, sessions, pageviews, visitors, first_time_visitors, bounces, avg_time_on_page, completed)
+							SELECT
+							    '2025-02-25' AS date,
+							    source.page_url,
+							    source.sessions,
+							    source.pageviews,
+							    source.visitors,
+							    source.first_time_visitors,
+							    source.bounces,
+							    source.avg_time_on_page,
+								'0' AS completed
+							FROM (
+							    SELECT COALESCE( SUM( CASE WHEN bounce = 0 THEN 1 ELSE 0 END ), 0) as pageviews, COUNT(DISTINCT CASE WHEN bounce = 0 THEN statistics.uid END) as visitors, COALESCE( SUM( CASE WHEN bounce = 0 THEN statistics.first_time_visit ELSE 0 END ), 0 )  as first_time_visitors, statistics.page_url as page_url, COALESCE( SUM( CASE WHEN bounce = 1 THEN 1 ELSE 0 END ), 0) as bounces, COUNT( DISTINCT CASE WHEN bounce = 0 THEN statistics.session_id END ) as sessions, COALESCE( AVG( CASE WHEN bounce = 0 THEN statistics.time_on_page END ), 0 ) as avg_time_on_page FROM uni_burst_statistics AS statistics  WHERE time > 1740427200 AND time < 1740513599  GROUP BY page_url  
+							) AS source
+							ON DUPLICATE KEY UPDATE
+							    date = date,
+							    page_url = source.page_url,
+							    sessions = source.sessions,
+							    pageviews = source.pageviews,
+							    visitors = source.visitors,
+							    first_time_visitors = COALESCE(source.first_time_visitors, 0),
+							    bounces = source.bounces,
+							    avg_time_on_page = source.avg_time_on_page,
+							    completed = completed; made by do_action_ref_array('burst_every_hour'), WP_Hook->do_action, WP_Hook->apply_filters, burst_summary->update_summary_table_today, burst_summary->update_summary_table
+[25-Feb-2025 19:27:22 UTC] WordPress database error Table 'qsaaxmsq_wp820.uni_burst_statistics' doesn't exist for query INSERT INTO uni_burst_summary (date, page_url, sessions, pageviews, visitors, first_time_visitors, bounces, avg_time_on_page, completed)
+							SELECT
+							    '2025-02-25' AS date,
+							    'burst_day_total' as page_url,
+							    source.sessions,
+							    source.pageviews,
+							    source.visitors,
+							    source.first_time_visitors,
+							    source.bounces,
+							    source.avg_time_on_page,
+								'0' AS completed
+							FROM (
+							    SELECT COALESCE( SUM( CASE WHEN bounce = 0 THEN 1 ELSE 0 END ), 0) as pageviews, COUNT(DISTINCT CASE WHEN bounce = 0 THEN statistics.uid END) as visitors, COALESCE( SUM( CASE WHEN bounce = 0 THEN statistics.first_time_visit ELSE 0 END ), 0 )  as first_time_visitors, COALESCE( SUM( CASE WHEN bounce = 1 THEN 1 ELSE 0 END ), 0) as bounces, COUNT( DISTINCT CASE WHEN bounce = 0 THEN statistics.session_id END ) as sessions, COALESCE( AVG( CASE WHEN bounce = 0 THEN statistics.time_on_page END ), 0 ) as avg_time_on_page FROM uni_burst_statistics AS statistics  WHERE time > 1740427200 AND time < 1740513599    
+							) AS source
+							ON DUPLICATE KEY UPDATE
+							    date = date,
+							    page_url = page_url,
+							    sessions = source.sessions,
+							    pageviews = source.pageviews,
+							    visitors = source.visitors,
+							    first_time_visitors = COALESCE(source.first_time_visitors, 0),
+							    bounces = source.bounces,
+							    avg_time_on_page = COALESCE(source.avg_time_on_page, 0),
+							    completed = completed; made by do_action_ref_array('burst_every_hour'), WP_Hook->do_action, WP_Hook->apply_filters, burst_summary->update_summary_table_today, burst_summary->update_summary_table
+[25-Feb-2025 21:24:24 UTC] WordPress database error Table 'qsaaxmsq_wp820.uni_burst_statistics' doesn't exist for query INSERT INTO uni_burst_summary (date, page_url, sessions, pageviews, visitors, first_time_visitors, bounces, avg_time_on_page, completed)
+							SELECT
+							    '2025-02-24' AS date,
+							    source.page_url,
+							    source.sessions,
+							    source.pageviews,
+							    source.visitors,
+							    source.first_time_visitors,
+							    source.bounces,
+							    source.avg_time_on_page,
+								'1' AS completed
+							FROM (
+							    SELECT COALESCE( SUM( CASE WHEN bounce = 0 THEN 1 ELSE 0 END ), 0) as pageviews, COUNT(DISTINCT CASE WHEN bounce = 0 THEN statistics.uid END) as visitors, COALESCE( SUM( CASE WHEN bounce = 0 THEN statistics.first_time_visit ELSE 0 END ), 0 )  as first_time_visitors, statistics.page_url as page_url, COALESCE( SUM( CASE WHEN bounce = 1 THEN 1 ELSE 0 END ), 0) as bounces, COUNT( DISTINCT CASE WHEN bounce = 0 THEN statistics.session_id END ) as sessions, COALESCE( AVG( CASE WHEN bounce = 0 THEN statistics.time_on_page END ), 0 ) as avg_time_on_page FROM uni_burst_statistics AS statistics  WHERE time > 1740340800 AND time < 1740427199  GROUP BY page_url  
+							) AS source
+							ON DUPLICATE KEY UPDATE
+							    date = date,
+							    page_url = source.page_url,
+							    sessions = source.sessions,
+							    pageviews = source.pageviews,
+							    visitors = source.visitors,
+							    first_time_visitors = COALESCE(source.first_time_visitors, 0),
+							    bounces = source.bounces,
+							    avg_time_on_page = source.avg_time_on_page,
+							    completed = completed; made by do_action_ref_array('burst_every_hour'), WP_Hook->do_action, WP_Hook->apply_filters, burst_summary->update_summary_table_today, burst_summary->update_summary_table
+[25-Feb-2025 21:24:24 UTC] WordPress database error Table 'qsaaxmsq_wp820.uni_burst_statistics' doesn't exist for query INSERT INTO uni_burst_summary (date, page_url, sessions, pageviews, visitors, first_time_visitors, bounces, avg_time_on_page, completed)
+							SELECT
+							    '2025-02-24' AS date,
+							    'burst_day_total' as page_url,
+							    source.sessions,
+							    source.pageviews,
+							    source.visitors,
+							    source.first_time_visitors,
+							    source.bounces,
+							    source.avg_time_on_page,
+								'1' AS completed
+							FROM (
+							    SELECT COALESCE( SUM( CASE WHEN bounce = 0 THEN 1 ELSE 0 END ), 0) as pageviews, COUNT(DISTINCT CASE WHEN bounce = 0 THEN statistics.uid END) as visitors, COALESCE( SUM( CASE WHEN bounce = 0 THEN statistics.first_time_visit ELSE 0 END ), 0 )  as first_time_visitors, COALESCE( SUM( CASE WHEN bounce = 1 THEN 1 ELSE 0 END ), 0) as bounces, COUNT( DISTINCT CASE WHEN bounce = 0 THEN statistics.session_id END ) as sessions, COALESCE( AVG( CASE WHEN bounce = 0 THEN statistics.time_on_page END ), 0 ) as avg_time_on_page FROM uni_burst_statistics AS statistics  WHERE time > 1740340800 AND time < 1740427199    
+							) AS source
+							ON DUPLICATE KEY UPDATE
+							    date = date,
+							    page_url = page_url,
+							    sessions = source.sessions,
+							    pageviews = source.pageviews,
+							    visitors = source.visitors,
+							    first_time_visitors = COALESCE(source.first_time_visitors, 0),
+							    bounces = source.bounces,
+							    avg_time_on_page = COALESCE(source.avg_time_on_page, 0),
+							    completed = completed; made by do_action_ref_array('burst_every_hour'), WP_Hook->do_action, WP_Hook->apply_filters, burst_summary->update_summary_table_today, burst_summary->update_summary_table
+[25-Feb-2025 21:24:24 UTC] WordPress database error Table 'qsaaxmsq_wp820.uni_burst_statistics' doesn't exist for query INSERT INTO uni_burst_summary (date, page_url, sessions, pageviews, visitors, first_time_visitors, bounces, avg_time_on_page, completed)
+							SELECT
+							    '2025-02-25' AS date,
+							    source.page_url,
+							    source.sessions,
+							    source.pageviews,
+							    source.visitors,
+							    source.first_time_visitors,
+							    source.bounces,
+							    source.avg_time_on_page,
+								'0' AS completed
+							FROM (
+							    SELECT COALESCE( SUM( CASE WHEN bounce = 0 THEN 1 ELSE 0 END ), 0) as pageviews, COUNT(DISTINCT CASE WHEN bounce = 0 THEN statistics.uid END) as visitors, COALESCE( SUM( CASE WHEN bounce = 0 THEN statistics.first_time_visit ELSE 0 END ), 0 )  as first_time_visitors, statistics.page_url as page_url, COALESCE( SUM( CASE WHEN bounce = 1 THEN 1 ELSE 0 END ), 0) as bounces, COUNT( DISTINCT CASE WHEN bounce = 0 THEN statistics.session_id END ) as sessions, COALESCE( AVG( CASE WHEN bounce = 0 THEN statistics.time_on_page END ), 0 ) as avg_time_on_page FROM uni_burst_statistics AS statistics  WHERE time > 1740427200 AND time < 1740513599  GROUP BY page_url  
+							) AS source
+							ON DUPLICATE KEY UPDATE
+							    date = date,
+							    page_url = source.page_url,
+							    sessions = source.sessions,
+							    pageviews = source.pageviews,
+							    visitors = source.visitors,
+							    first_time_visitors = COALESCE(source.first_time_visitors, 0),
+							    bounces = source.bounces,
+							    avg_time_on_page = source.avg_time_on_page,
+							    completed = completed; made by do_action_ref_array('burst_every_hour'), WP_Hook->do_action, WP_Hook->apply_filters, burst_summary->update_summary_table_today, burst_summary->update_summary_table
+[25-Feb-2025 21:24:24 UTC] WordPress database error Table 'qsaaxmsq_wp820.uni_burst_statistics' doesn't exist for query INSERT INTO uni_burst_summary (date, page_url, sessions, pageviews, visitors, first_time_visitors, bounces, avg_time_on_page, completed)
+							SELECT
+							    '2025-02-25' AS date,
+							    'burst_day_total' as page_url,
+							    source.sessions,
+							    source.pageviews,
+							    source.visitors,
+							    source.first_time_visitors,
+							    source.bounces,
+							    source.avg_time_on_page,
+								'0' AS completed
+							FROM (
+							    SELECT COALESCE( SUM( CASE WHEN bounce = 0 THEN 1 ELSE 0 END ), 0) as pageviews, COUNT(DISTINCT CASE WHEN bounce = 0 THEN statistics.uid END) as visitors, COALESCE( SUM( CASE WHEN bounce = 0 THEN statistics.first_time_visit ELSE 0 END ), 0 )  as first_time_visitors, COALESCE( SUM( CASE WHEN bounce = 1 THEN 1 ELSE 0 END ), 0) as bounces, COUNT( DISTINCT CASE WHEN bounce = 0 THEN statistics.session_id END ) as sessions, COALESCE( AVG( CASE WHEN bounce = 0 THEN statistics.time_on_page END ), 0 ) as avg_time_on_page FROM uni_burst_statistics AS statistics  WHERE time > 1740427200 AND time < 1740513599    
+							) AS source
+							ON DUPLICATE KEY UPDATE
+							    date = date,
+							    page_url = page_url,
+							    sessions = source.sessions,
+							    pageviews = source.pageviews,
+							    visitors = source.visitors,
+							    first_time_visitors = COALESCE(source.first_time_visitors, 0),
+							    bounces = source.bounces,
+							    avg_time_on_page = COALESCE(source.avg_time_on_page, 0),
+							    completed = completed; made by do_action_ref_array('burst_every_hour'), WP_Hook->do_action, WP_Hook->apply_filters, burst_summary->update_summary_table_today, burst_summary->update_summary_table
